@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+"""
+Brainy Data Explorer
+=====================
+A dataset-agnostic Streamlit app for exploratory data analysis and
+supervised modeling (regression or classification, auto-detected from
+the target column you choose). Upload any CSV or Excel file — no code
+edits required.
+
 Run with:
     streamlit run app.py
 """
@@ -571,4 +580,3 @@ with tab_model:
 
 st.markdown("---")
 st.caption("🧠 Brainy Data Explorer — dataset-agnostic EDA & modeling, built with Streamlit + scikit-learn.")
-
