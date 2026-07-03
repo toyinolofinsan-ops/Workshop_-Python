@@ -5,6 +5,5 @@ plotly
 openpyxl
 xlrd
 scikit-learn
-matplotlib
 seaborn
 xgboost
